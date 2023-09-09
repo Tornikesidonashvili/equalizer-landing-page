@@ -1,0 +1,347 @@
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&display=swap%27');
+body{
+ background-color: #FCFAF9; 
+ margin: 0;
+ font-family: 'IBM Plex Sans', sans-serif;
+ background-image: url(bg-main-mobile.png);
+    background-repeat: no-repeat;
+    background-position: 30px -170px;
+    background-size: 510px auto;
+}
+
+   
+
+.photo2{
+    padding: 30px;
+    padding-top: 40px;
+    
+}
+.text1{
+    color: #191826;
+     font-weight: 700;
+     font-size: 40px;
+     line-height: 48px;
+     padding-left: 24px;
+     width: 327px;
+     
+    
+
+    
+    
+    
+}
+.text2{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400px;
+    width: 327px;
+    padding-left: 24px;
+    color: #191826;
+}
+.mobilephoto{
+    width:  208.97px;
+    height: 430px;
+    display: block;
+    margin: auto;
+    padding-top: 50px;
+    margin-bottom: -340px;
+    position: relative;
+   
+   
+}
+.backgroundphoto{
+    background-color: #191826;
+    
+}
+.backgroundphoto2{
+    width: 280px;
+    margin: auto;
+    display: block;
+
+    
+
+}
+.orangebackground{
+    background-color: #FA7453;
+    width: 375px;
+    height: 546px;
+    border-radius: 10px;
+    margin-top: -50px;
+    position: relative;
+}
+.orangetext1{
+    color: #FCFAF9;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+   padding-left: 36px;
+   margin: 0;
+   padding-top: 60px;
+   
+   
+}
+.orangetext2{
+    width: 302px;
+    font-weight:  400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FCFAF9;
+    padding-left: 36px;
+    margin: 0;
+    padding-top: 15px;
+
+    
+}
+.moneytext1{
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 52px;
+    color: #FCFAF9;
+    padding-left: 42px;
+    
+}
+.span{
+   color: #FCFAF9;
+   width: 70px;
+   font-weight: 20px;
+   line-height: 32px;
+   font-size: 20px 
+   
+}
+.moneytext{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.button{
+   
+   
+}
+.button1{
+ background-color: #191826;
+   border-radius: 24px;
+   width: 296px;
+   height: 61px;
+   margin: auto;
+   margin-top: -50px;
+   display: block;   
+   display: flex; 
+   justify-content: center;
+
+   
+}
+.buttontext1{
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 700px;
+    color: #FCFAF9;
+    margin: auto;
+    
+    
+}
+.buttonphoto{
+    
+   height: 18px;
+
+}
+.buttondiv{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-top: 10px;
+}
+.buttondiv2{
+    background-color:  #FCFAF9;
+    border-radius: 24px;
+    width: 296px;
+    height: 61px;
+    margin: auto;
+    display: block;   
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    
+ 
+}
+.androidphoto{
+    height: 16px;
+    display: block;
+    order: 1;
+    
+}
+.androidtext{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    order: 2;
+
+    
+    
+}
+.lastphoto{
+    padding: 30px;
+    
+}
+.lasttext1{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    width: 300px;
+    padding-left: 25px;
+}
+.icon{
+    width: 20px;
+    height: 20px;
+    padding-left: 24px;
+}   
+@media (min-width: 750px){
+    body{
+        background: url(bg-main-tablet.png) -170px -180px no-repeat, 
+                    url(bg-pattern-1.svg) 107% -30px no-repeat;
+        background-size: min(983px, 808px), min(266px, 400px);
+    }
+    .text1{
+        font-size: 64px;
+        line-height: 64px;
+        font-weight: 700;
+        width: 520px;
+        margin: 0;
+    }
+    .text2{
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 28px;
+        width: 520px;
+        
+    }
+    .mobilephoto{
+       margin-left: 97px;
+       width: 270.21px;
+       height: 556px;
+       margin-bottom: -400px;
+
+
+    }
+    .backgroundphoto{
+        margin: auto;
+        width: 95%;
+        height: 600px;
+        border-radius: 10px;
+        
+
+    }
+    .orangebackground{
+        margin-left: 272px;
+        margin-top:  -420px;
+       
+    }
+    .last{
+        margin: 0;
+        display: flex;
+        justify-content: space-between;
+          
+        
+
+       
+    }
+   .lastphoto{
+
+   
+    
+   }
+   .lasttext1{
+    width: 366px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+   
+
+   }
+  .lastphoto1{
+   margin-right: 50px;
+   
+  }
+}
+@media (min-width: 1440px){
+ body{
+        background: url(bg-main-desktop.png) 70px -190px no-repeat, 
+                    url(bg-pattern-1.svg) 100% -35px no-repeat;
+    background-size: 170vh, 312px;
+    }
+   .text1{
+        width: 1015px;
+        font-size: 88px;
+        line-height: 88px;
+        font-weight: 700;
+        padding-left: 165px;
+   } 
+   .text2{
+    width: 825px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 34px;
+    padding-left: 164px;
+   }
+   .backgroundphoto{
+    width: 1110;
+    height: 600px;
+   
+   }
+   .orangebackground{
+    margin-left: 1000px;
+    margin-top:  -480px;
+
+
+   
+   }
+    .backgroundphoto2{
+        width: 312px;
+        height: 468px;
+    }
+    .mobilephoto{
+        margin-left: 550px;
+        width: 312px;
+        height: 642px;
+        margin-bottom: -500px;
+
+    }
+    .photo2{
+        padding-left: 165px;
+    }
+    .lasttext1{
+        width: 366px;
+        font-size: 16px;
+        line-height: 26px;
+        font-weight: 400;
+        
+        margin: 0;
+
+      
+        
+
+    }
+    .last2{
+        display: flex;  
+        justify-content: space-between;
+        align-items: last baseline;
+
+    }
+    .last{
+        
+        width: 70%;
+    }
+    .button1:hover{
+       background-color: #66E2DC;
+    }
+    .buttondiv2:hover{
+        background-color: #FFB964;
+    }
+
+  
+}
+ 
+
+    
+
